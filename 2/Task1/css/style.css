@@ -1,0 +1,106 @@
+
+@font-face{
+    font-family: 'Perfograma';
+    src:
+        url('../fonts/Perfograma.woff2')
+}
+
+.perfograma{
+    font-family: 'Perfograma';
+}
+
+@font-face{
+    font-family: 'Library';
+    src:url('../fonts/Library.woff2')
+}
+
+.library{
+    font-family: 'Library';
+}
+
+@font-face{
+    font-family: 'Library_soft';
+    src:url('../fonts/Library_soft.woff2')
+}
+
+.library_soft{
+    font-family: 'Library_soft';
+}
+
+@font-face{
+    font-family: 'newfont';
+    src:url('../fonts/font.woff2')
+}
+
+.newfont{
+    font-family: 'newfont';
+}
+
+.center
+{
+    text-align: center;
+}
+
+.right{
+    text-align: right;
+}
+
+header{
+    font-size: 40px;
+    font-weight: bold;
+    color:#a85432;
+    text-shadow: 1px 1px 1px #a85432;
+    text-shadow: -1px -1px -1px #a85432;
+}
+
+article.detail{
+    font-size: 26px;
+    text-shadow: rgb(238, 221, 214) 1px -12px 1px;
+}
+
+.blue-text{
+    color:rgb(44, 36, 202);
+    font-weight: bold;
+    font-size: 36px;
+    text-shadow: 1px 1px 1px #a85432;
+    text-shadow: -1px -1px -1px #a85432;
+}
+
+.section1{
+    text-align: right;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.purple-text{
+    color:#93156a;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.listitem{
+    text-indent: 10px;
+    font-size: 20px;
+    text-shadow: #93156a -3px -3px 2px;
+    text-decoration: underline;
+    line-height: 0.75%;
+}
+
+main.text{
+    text-indent: 40px;
+    font-size: 14px;   
+    font-weight: bold;
+}
+
+footer{
+    border: rgb(165, 42, 42) 2px solid;
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(165, 42, 42);
+    width: 18%;
+    padding: 8px;
+}
