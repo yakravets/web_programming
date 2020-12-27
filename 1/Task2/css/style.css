@@ -1,0 +1,39 @@
+header
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+blockquote
+{
+    text-align: right;
+    font-style: italic;
+}
+
+p{
+    text-transform: uppercase;
+    background: linear-gradient(to top left, #ffffff, #000000);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    display: table;
+    margin: 20px auto;
+}
+
+.letter
+{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.b1
+{
+    font-size: x-large;
+    font-weight: normal;
+}
+
+.b2{
+    font-size: small;
+    font-weight: normal;
+}

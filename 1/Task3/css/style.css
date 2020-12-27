@@ -1,0 +1,30 @@
+body{
+    background-color: #aaaaaa;
+}
+
+header{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.formula{
+    display: inline-block;
+    background-color: #ff8fa1;
+    text-align: center;
+    margin: 0 auto;
+    width: auto;
+}
+
+.parent
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.math
+{
+    color: brown;
+    font-weight: bold;
+}
