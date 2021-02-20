@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    padding: 2%;
+}
+p.bold {    
+    font-weight: bold;
+}
+
+dt{
+    font-style: italic;
+}
+
+.gray{
+    color: gray;
+}
+
+.synonymos > span{
+    color: blueviolet;
+}
+
+span.bold{
+    font-weight: bold;
+}

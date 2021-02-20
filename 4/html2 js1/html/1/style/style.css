@@ -1,0 +1,53 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.rectangle {
+    counter-reset: li; 
+    list-style: none; 
+    font: 18px "Trebuchet MS", "Lucida Sans";
+    padding: 10px;
+    margin: 10px;
+    background-color: lightpink;
+    text-shadow: 1px 1px 0 rgba(255,255,255,.5);
+}
+
+.rectangle a {
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 0;
+    margin: .5em 0 .5em 2.5em;
+    background: lightcoral;;
+    text-decoration: none;
+    transition: all .3s ease-out;
+    color: white
+}
+
+.rectangle a:hover {
+    background: tomato;
+}       
+
+.rectangle a:before {
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    left: -2.5em;
+    top: 50%;
+    margin-top: -1em;
+    background: lightcoral;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.brown
+{
+    background-color:brown;
+    position: relative;
+    display: inline;
+    padding: .4em 1em .4em 1em;
+}

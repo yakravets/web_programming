@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+.content{
+    display: flex;
+    flex-direction: column;
+    transition: all .3s ease-out;
+    font-family: 'Monoton', cursive;    
+}
+
+li{
+    list-style-type: none;
+}
+
+.title{
+    margin: 25px;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+ul.list{
+    margin-right: 2%;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    margin: 2px 0 2px 0;
+    border-radius: 25px;
+    padding: .1% 0 .1% .2%;
+}
+
+li:nth-child(odd) {
+    background-color: deepskyblue;
+}
+
+li:nth-child(even) {
+    background-color: aqua;
+}
+
+.task{
+    margin: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+img{
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+li.close{    
+    background-color: lightslategray;
+}
+
+.task.close{
+    text-decoration: line-through;
+}
+
+.brown{
+    color:brown;
+    text-decoration: none;
+    font-weight: bold;
+}
