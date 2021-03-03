@@ -30,10 +30,10 @@ body
 }       
 
 .rectangle a:before {
-    content: counter(li);
+    content: counter(li)".";
     counter-increment: li;
     position: absolute;
-    left: -2.5em;
+    left: -2em;
     top: 50%;
     margin-top: -1em;
     background: lightcoral;
