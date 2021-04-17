@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.final{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+}
+
+.picture{
+    padding: 5px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+img.mainpicture{
+    width: 500px;
+    box-shadow: 0 -2px dodgerblue;
+}
+
+#play_button{
+    height: 50px;
+    width: 50px;
+    background-color: dodgerblue;
+    position: absolute;
+    right: 10px;
+    bottom: -15px;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+#id{
+    background-color: white;
+    top: 35%;
+    position: absolute;
+    left: 35%;
+    width: 15px;
+    height: 15px;
+}
+.statusbar{
+    color: dodgerblue;
+    display: flex;
+}
+
+.views, .time, .level{
+    padding: 10px;
+}
