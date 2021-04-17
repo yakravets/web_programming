@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="canonical" href="https://weatherstack.com/">
+    <link rel="shortcut icon" href="https://weatherstack.com/site_images/weatherstack_shortcut_icon.ico">
+    <link rel="apple-touch-icon" href="https://weatherstack.com/site_images/weatherstack_icon.png">
+    <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/google/code-prettify/master/loader/prettify.css">
+    <link rel="stylesheet" type="text/css" href="https://weatherstack.com/css/prettify.css">
+    <link href="https://weatherstack.com/site_css/style.css" rel="stylesheet" media="screen">
+    <script src="https://weatherstack.com/site_js/jquery-1.11.3.min.js" type="text/javascript"></script>
+
+
+
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="weather_animated">                  
+            <input type="hidden" name="client_ip" value="85.159.0.152">          
+          <div class="location">          
+              <span data-api="location">Avtozavodskiy Rayon, Poltavs'ka Oblast', Ukraine</span>             
+          </div>          
+          <div class="main_left">          
+              <i data-api="current_icon" class="full_clouds"></i>
+              <span data-api="current_main_descr">Mist</span>          
+          </div>          
+          <div class="main_right">          
+              <span data-api="current_wind_speed" class="wind">Wind: 9 kmph</span>
+              <span data-api="current_precip" class="precip">Precip: 0 mm</span>
+              <span data-api="current_pressure" class="pressure">Pressure: 1017 mb</span>
+              <span data-api="current_temperature" class="temperature">1°c</span>          
+          </div>          
+          <div data-api="forecast_week" class="week"><div class="day"><span class="name">MON</span><i class="partly_cloudy"></i><span class="temperature">6 °c</span></div><div class="day"><span class="name">TUE</span><i class="partly_cloudy"></i><span class="temperature">5 °c</span></div><div class="day"><span class="name">WED</span><i class="full_clouds"></i><span class="temperature">4 °c</span></div><div class="day"><span class="name">THU</span><i class="cloud_slight_rain"></i><span class="temperature">2 °c</span></div><div class="day"><span class="name">FRI</span><i class="cloud_slight_rain"></i><span class="temperature">1 °c</span></div></div>       
+       </div>
+    </div>
+    <script src="https://weatherstack.com/site_js/scripts.js"></script>
+    <script src="https://weatherstack.com/js/shared/countries.js" id="countries"></script>
+</body>
+</html>

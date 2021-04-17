@@ -25,19 +25,18 @@ img.mainpicture{
     width: 50px;
     background-color: dodgerblue;
     position: absolute;
-    right: 10px;
-    bottom: -15px;
+    right: 15px;
+    bottom: 50px;
     border-radius: 50%;
     box-sizing: border-box;
 }
 
 #id{
-    background-color: white;
-    top: 35%;
+    /* background-color: white; */
+    top: 30%;
     position: absolute;
-    left: 35%;
-    width: 15px;
-    height: 15px;
+    left: 43%;
+    font-size: 20px;
 }
 .statusbar{
     color: dodgerblue;
@@ -46,4 +45,14 @@ img.mainpicture{
 
 .views, .time, .level{
     padding: 10px;
+}
+
+.white-color{
+    color: white;
+}
+
+#result{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
