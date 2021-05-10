@@ -9,7 +9,7 @@ function btn__click(e) {
 
     let login = document.querySelector('.form__login');
 
-    let check = document.querySelector('.check__input');
+    let check = document.querySelector('#check__input');
 
     let check__text = '';
     if (check.checked == true) {
@@ -19,7 +19,7 @@ function btn__click(e) {
         check__text = 'не запомнил';
     }
 
-    result.innerHTML = `"Привет, ${login.value}. Я тебя " + ${check__text}`;
+    result.innerHTML = `Привет, ${login.value}. Я тебя ${check__text}`;
 }
 
 let btn = document.querySelector('.form__btn')

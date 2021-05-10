@@ -1,5 +1,5 @@
 var btn = document.querySelector('.form__btn')
-var test = document.querySelector('.test');
+var form = document.querySelector('.form');
 var result = document.querySelector('.result');
 var f = document.querySelector('.firstname');
 var l = document.querySelector('.lastname');
@@ -15,7 +15,7 @@ var skills = document.getElementsByName('skill');
 
 function btn__click(evt) {
     evt.preventDefault();
-    test.classList.add('hidden');
+    form.classList.add('hidden');
     result.classList.add('active');
     var c;
     var country;
