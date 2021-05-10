@@ -1,0 +1,68 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.login {
+    padding-top: 200px;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.test {
+    max-width: 450px;
+    margin: 0 auto;
+    background-color: #FAD8EE;
+    padding: 20px 15px;
+}
+
+.test.hidden {
+    display: none;
+}
+
+.form__inpb {
+    margin-bottom: 15px;
+    flex: 0 0 47%;
+}
+
+.form__inpb input {
+    width: 100%;
+    height: 20px;
+    margin: 0;
+}
+
+.form__link {
+    display: block;
+    text-align: right;
+    margin-top: 15px;
+}
+
+.form__inpb label {
+    display: block;
+}
+
+.form__line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__btn {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.result {
+    display: none;
+    text-align: center;
+    font-size: 25px;
+}
+
+.result.active {
+    display: block;
+}

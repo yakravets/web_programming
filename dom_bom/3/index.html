@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="login">
+        <div class="container">
+            <div class="test">
+                <form action="#">
+                    <div class="form__line">
+                        <div class="form__inpb">
+                            <label for="login">Firstname:</label>
+                            <input class="form__login" type="text" id="firstname" />
+                        </div>
+                        <div class="form__inpb">
+                            <label for="lastname">Lastname:</label>
+                            <input class="form__login" type="text" id="lastname" />
+                        </div>
+                    </div>
+                    <div class="form__line">
+                        <div class="form__inpb">
+                            <label for="birth">Birthday:</label>
+                            <input id="birth" type="date" />
+                        </div>
+                        <div class="form__inpb">
+                            <label for="">Gender</label>
+                            <div class="form__line2">
+                                <div class="form__r"> <input class="radio" checked id="male" type="radio" value="male" name="radio" />
+                                    <label for="male">Male</label>
+                                </div>
+                                <div class="form__r"> <input class="radio" id="female" type="radio" value="female" name="radio" />
+                                    <label for="female">Female</label>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="form__line">
+                        <div class="form__inpb">
+                            <label for="select-country">Country</label>
+                            <select name="" id="select-country">
+                                <option name="country" value="Canada1">Canada1</option> 
+                                 <option name="country" value="Canada2">Canada2</option> 
+                                  <option name="country" value="Canada3">Canada3</option> 
+                                   <option name="country" value="Canada4">Canada4</option>
+                            </select>
+                        </div>
+                        <div class="form__inpb">
+                            <label for="select-city">City</label>
+                            <select name="" id="select-city">
+                                <option name="city" value="Toronto1">Toronto1</option> 
+                                <option name="city" value="Toronto2">Toronto2</option>
+                                <option name="city" value="Toronto3">Toronto3</option>
+                                 <option name="city"name="city" value="Toronto4">Toronto4</option>
+                                  <option name="city" value="Toronto5">Toronto5</option> 
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form__row">
+                        <label for="skills">Skills:</label>
+                        <div class="row2">
+                            <div class="row__box">
+                                <input name="skill" id="html" value="HTML" type="checkbox">
+                                <label for="html">HTML</label>
+                            </div>
+                            <div class="row__box">
+                                <input name="skill" id="css" value="CSS" type="checkbox">
+                                <label for="css">CSS</label>
+                            </div>
+                            <div class="row__box">
+                                <input name="skill" id="js" value="JS" type="checkbox">
+                                <label for="js">JS</label>
+                            </div>
+                            <div class="row__box">
+                                <input name="skill" id="php" value="PHP" type="checkbox">
+                                <label for="php">PHP</label>
+                            </div>
+                            <div class="row__box">
+                                <input name="skill" id="ccc" value="C++" type="checkbox">
+                                <label for="ccc">C++</label>
+                            </div>
+                            <div class="row__box">
+                                <input name="skill" id="java" value="JAVA" type="checkbox">
+                                <label for="java">JAVA</label>
+                            </div>
+                            <div class="row__box">
+                                <input name="skill" id="cs" value="C#" type="checkbox">
+                                <label for="cs">C#</label>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="form__btn" type="submit">Save</button>
+                </form>
+            </div>
+            <div class="result">
+                <span>Result</span>
+                <div class="table">
+                    <div class="row">
+                        <div class="row__col1">Firstname</div>
+                        <div class="row__col2 firstname"></div>
+                    </div>
+                    <div class="row">
+                        <div class="row__col1">Lastname</div>
+                        <div class="row__col2 lastname"></div>
+                    </div>
+                    <div class="row">
+                        <div class="row__col1">Birthday</div>
+                        <div class="row__col2 birthday"></div>
+                    </div>
+                    <div class="row">
+                        <div class="row__col1">Gender</div>
+                        <div class="row__col2 gender"></div>
+                    </div>
+                    <div class="row">
+                        <div class="row__col1">Country</div>
+                        <div class="row__col2 country"></div>
+                    </div>
+                    <div class="row">
+                        <div class="row__col1">City</div>
+                        <div class="row__col2 city"></div>
+                    </div>
+                    <div class="row">
+                        <div class="row__col1">Skills</div>
+                        <div class="row__col2 skills"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+
+</html>

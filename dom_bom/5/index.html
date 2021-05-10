@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="http://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css" rel="Stylesheet" type="text/css" />
+   <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css" />
+   <title>Document</title>
+</head>
+
+<body>
+   <section class="login">
+      <div class="container">
+         <div class="test">
+            <div class="result">
+               <div class="result__label">
+                  All questions:
+               </div>
+               <div class="result__list">
+                  <div class="result__item">
+                     <div class="result__title">qwerty</div>
+                     <div class="result__corect">
+                        <span class="result__label1">Correct answer:</span>
+                        <p class="result__ca">4</p>
+                     </div>
+                     <div class="result__wrong">
+                        <span class="result__label1">Wrong answer:</span>
+                        <p class="result__wa">4</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <form action="#">
+               <p class="form__lbl">
+                  Add new question
+               </p>
+               <div class="form__line">
+                  <div class="form__inpb">
+                     <label for="question">Question:</label>
+                     <input type="text" id="question" />
+                  </div>
+                  <div class="form__inpb">
+                     <label for="canswer">Correct answer:</label>
+                     <input type="number" id="canswer" />
+                  </div>
+                  <div class="form__inpb">
+                     <label for="wanswer">Wrong answer:</label>
+                     <input type="number" id="wanswer" />
+                  </div>
+               </div>
+
+               <button class="form__btn" type="submit">Add</button>
+            </form>
+         </div>
+
+      </div>
+   </section>
+   <script src="main.js"></script>
+</body>
+
+</html>

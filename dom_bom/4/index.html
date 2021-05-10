@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="http://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css" rel="Stylesheet" type="text/css" />
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="login">
+        <div class="container">
+            <div class="test">
+                <form action="#">
+                    <div class="form__line">
+                        <div class="form__inpb">
+                            <label for="r">R</label>
+                            <input type="number" min="0" max="255" id="r" />
+                        </div>
+                        <div class="form__inpb">
+                            <label for="g">G</label>
+                            <input type="number" min="0" max="255" id="g" />
+                        </div>
+                        <div class="form__inpb">
+                            <label for="b">B</label>
+                            <input type="number" min="0" max="255" id="b" />
+                        </div>
+                    </div>
+
+                    <button class="form__btn" type="submit">Add</button>
+                </form>
+                <div class="result">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+
+</html>
