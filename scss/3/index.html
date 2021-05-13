@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="Description" content="default">
+    <title>Document</title>
+    <script src="js/picturefill.min.js" async="async"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <main class="page">
+            <header class="header">
+                <div class="container">
+                    <div class="header__row">
+                        <a href="#" class="header__logo">Flights-Search List</a>
+                        <div class="header__links">
+                            <a href="#" class="header__link">Home / </a>
+                            <a href="#" class="header__link">Flights Search List</a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <section class="content">
+                <div class="container">
+                    <div class="content__top top-content">
+                        <div class="top-content__box">
+                            <div class="top-content__inpb">
+                                <input name="way" type="radio" checked><span class="top-content__label">One way</span>
+                            </div>
+                            <div class="top-content__inpb">
+                                <input name="way" type="radio"><span class="top-content__label">Round Trip</span>
+                            </div>
+                        </div>
+                        <div class="top-content__wrapper">
+                            <div class="top-content__item">
+                                <img src="img/location.svg" alt="">
+                                <input type="text" class="top-content__input input" placeholder="from">
+                            </div>
+                            <div class="top-content__item">
+                                <img src="img/location.svg" alt="">
+                                <input type="text" class="top-content__input input" placeholder="to">
+                            </div>
+                            <div class="top-content__item">
+                                <img src="img/calendar.svg" alt="">
+                                <input type="text" class="top-content__input input" placeholder="depart date">
+                            </div>
+                            <div class="top-content__item">
+                                <img src="img/calendar.svg" alt="">
+                                <input type="text" class="top-content__input input" placeholder="return date">
+                            </div>
+                            <div class="top-content__item">
+                                <select class="top-content__select">
+                                    <option value="">Economy class</option>
+                                    <option value="">Economy class2</option>
+                                    <option value="">Economy class3</option>
+                                    <option value="">Economy class4</option>
+                                </select>
+                            </div>
+                            <div class="top-content__item">
+                                <a href="" class="top-content__btn btn">Search</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content__main main-content">
+                        <div class="main-content__filter filter">
+                            <div class="filter__title">Filter</div>
+                            <div class="filter__box">
+                                <div class="filter__subtitle">No, of stops</div>
+                                <div class="filter__check">
+                                    <input type="checkbox" class="filter__check-input"> <span class="filter__label">Non Stop</span>
+                                </div>
+                                <div class="filter__check">
+                                    <input type="checkbox" class="filter__check-input"> <span class="filter__label">1 Stop</span>
+                                </div>
+                                <div class="filter__check">
+                                    <input type="checkbox" class="filter__check-input"> <span class="filter__label">2+ Stops</span>
+                                </div>
+                            </div>
+                            <div class="filter__box">
+                                <div class="filter__subtitle">No, of stops</div>
+                                <div class="filter__row">
+                                    <div class="filter__inpb">
+                                        <span class="filter__input-label">Min:</span>
+                                        <input type="number" class="filter__input input" placeholder="0">
+                                    </div>
+                                    <div class="filter__inpb filter__inpb--max">
+                                        <span class="filter__input-label">Max:</span>
+                                        <input type="number" class="filter__input input" placeholder="1000">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="filter__box">
+                                <div class="filter__subtitle">Airlines</div>
+                                <div class="filter__check">
+                                    <input type="checkbox" class="filter__check-input"> <span class="filter__label">Asiana Airlines</span>
+                                </div>
+                                <div class="filter__check">
+                                    <input type="checkbox" class="filter__check-input"> <span class="filter__label">American Airlines</span>
+                                </div>
+                                <div class="filter__check">
+                                    <input type="checkbox" class="filter__check-input"> <span class="filter__label">Air Canada</span>
+                                </div>
+                                <div class="filter__check">
+                                    <input type="checkbox" class="filter__check-input"> <span class="filter__label">Air India</span>
+                                </div>
+                                <div class="filter__check">
+                                    <input type="checkbox" class="filter__check-input"> <span class="filter__label">Jet Airways</span>
+                                </div>
+                                <div class="filter__check">
+                                    <input type="checkbox" class="filter__check-input"> <span class="filter__label">Spicejet</span>
+                                </div>
+                                <div class="filter__check">
+                                    <input type="checkbox" class="filter__check-input"> <span class="filter__label">IndiGo</span>
+                                </div>
+                                <div class="filter__check">
+                                    <input type="checkbox" class="filter__check-input"> <span class="filter__label">Multiple Airlines</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-content__body body-content">
+                            <div class="body-content__title">Dehli to Sidney</div>
+                            <div class="body-content__table table">
+                                <div class="table__row table__row--header">
+                                    <div class="table__col">
+                                        <div class="table__name-col">Airlines</div>
+                                    </div>
+                                    <div class="table__col">
+                                        <div class="table__name-col">Departure</div>
+                                    </div>
+                                    <div class="table__col">
+                                        <div class="table__name-col">Duration</div>
+                                    </div>
+                                    <div class="table__col">
+                                        <div class="table__name-col">Arrival</div>
+                                    </div>
+                                    <div class="table__col">
+                                        <div class="table__name-col">Price</div>
+                                    </div>
+                                    <div class="table__col">
+                                        <div class="table__name-col"></div>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__col">
+                                        <div class="table__box">
+                                            <div class="table__box-head">IndiGo <span class="table__box-span">6e-2489</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="table__col">
+                                        <div class="table__box">
+                                            <div class="table__box-head">23:30 <span class="table__box-span">Dehli</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="table__col">
+                                        <div class="table__box">
+                                            <div class="table__box-head">18h 55m <span class="table__box-span">Non Stop</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="table__col">
+                                        <div class="table__box">
+                                            <div class="table__box-head">18:15 <span class="table__box-span">Sydney</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="table__col">
+                                        <div class="table__box">
+                                            <div class="table__box-head">$980</div>
+                                        </div>
+                                    </div>
+                                    <div class="table__col">
+                                        <div class="table__box"><a class="table__btn btn">Book</a> <a href="" class="table__link">Flights details</a></div>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__col">
+                                        <div class="table__box">
+                                            <div class="table__box-head">IndiGo <span class="table__box-span">6e-2489</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="table__col">
+                                        <div class="table__box">
+                                            <div class="table__box-head">23:30 <span class="table__box-span">Dehli</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="table__col">
+                                        <div class="table__box">
+                                            <div class="table__box-head">18h 55m <span class="table__box-span">Non Stop</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="table__col">
+                                        <div class="table__box">
+                                            <div class="table__box-head">18:15 <span class="table__box-span">Sydney</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="table__col">
+                                        <div class="table__box">
+                                            <div class="table__box-head">$980</div>
+                                        </div>
+                                    </div>
+                                    <div class="table__col">
+                                        <div class="table__box"><a class="table__btn btn">Book</a> <a href="" class="table__link">Flights details</a></div>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__col">
+                                        <div class="table__box">
+                                            <div class="table__box-head">IndiGo <span class="table__box-span">6e-2489</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="table__col">
+                                        <div class="table__box">
+                                            <div class="table__box-head">23:30 <span class="table__box-span">Dehli</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="table__col">
+                                        <div class="table__box">
+                                            <div class="table__box-head">18h 55m <span class="table__box-span">Non Stop</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="table__col">
+                                        <div class="table__box">
+                                            <div class="table__box-head">18:15 <span class="table__box-span">Sydney</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="table__col">
+                                        <div class="table__box">
+                                            <div class="table__box-head">$980</div>
+                                        </div>
+                                    </div>
+                                    <div class="table__col">
+                                        <div class="table__box"><a class="table__btn btn">Book</a> <a href="" class="table__link">Flights details</a></div>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__col">
+                                        <div class="table__box">
+                                            <div class="table__box-head">IndiGo <span class="table__box-span">6e-2489</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="table__col">
+                                        <div class="table__box">
+                                            <div class="table__box-head">23:30 <span class="table__box-span">Dehli</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="table__col">
+                                        <div class="table__box">
+                                            <div class="table__box-head">18h 55m <span class="table__box-span">Non Stop</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="table__col">
+                                        <div class="table__box">
+                                            <div class="table__box-head">18:15 <span class="table__box-span">Sydney</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="table__col">
+                                        <div class="table__box">
+                                            <div class="table__box-head">$980</div>
+                                        </div>
+                                    </div>
+                                    <div class="table__col">
+                                        <div class="table__box"><a class="table__btn btn">Book</a> <a href="" class="table__link">Flights details</a></div>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__col">
+                                        <div class="table__box">
+                                            <div class="table__box-head">IndiGo <span class="table__box-span">6e-2489</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="table__col">
+                                        <div class="table__box">
+                                            <div class="table__box-head">23:30 <span class="table__box-span">Dehli</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="table__col">
+                                        <div class="table__box">
+                                            <div class="table__box-head">18h 55m <span class="table__box-span">Non Stop</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="table__col">
+                                        <div class="table__box">
+                                            <div class="table__box-head">18:15 <span class="table__box-span">Sydney</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="table__col">
+                                        <div class="table__box">
+                                            <div class="table__box-head">$980</div>
+                                        </div>
+                                    </div>
+                                    <div class="table__col">
+                                        <div class="table__box"><a class="table__btn btn">Book</a> <a href="" class="table__link">Flights details</a></div>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__col">
+                                        <div class="table__box">
+                                            <div class="table__box-head">IndiGo <span class="table__box-span">6e-2489</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="table__col">
+                                        <div class="table__box">
+                                            <div class="table__box-head">23:30 <span class="table__box-span">Dehli</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="table__col">
+                                        <div class="table__box">
+                                            <div class="table__box-head">18h 55m <span class="table__box-span">Non Stop</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="table__col">
+                                        <div class="table__box">
+                                            <div class="table__box-head">18:15 <span class="table__box-span">Sydney</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="table__col">
+                                        <div class="table__box">
+                                            <div class="table__box-head">$980</div>
+                                        </div>
+                                    </div>
+                                    <div class="table__col">
+                                        <div class="table__box"><a class="table__btn btn">Book</a> <a href="" class="table__link">Flights details</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
