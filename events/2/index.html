@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="root">
+        <div class="block-form">
+            <div class="logo">
+                <img src="img/logo.png" alt="" srcset="">
+            </div>
+            <div class="form">
+                <form action="">
+                    <input type="text" name="fname" id="fname" placeholder="Ім'я" class="invalid">
+                    <input type="text" name="lname" id="lname" placeholder="Прізвище" class="invalid">
+
+                    <label for="m" class="radio_container">Чоловіча
+                        <input type="radio" name="gender" id="m" value="Чоловіча" checked="checked">
+                        <span class="radio_checkmark"></span>
+                    </label>
+                    <label for="f" class="radio_container">Жіноча
+                        <input type="radio" name="gender" id="f" value="Жіноча">
+                        <span class="radio_checkmark"></span>
+                    </label>
+
+                    <input type="email" name="email" id="email" placeholder="Email" class="invalid">
+                    <input type="password" name="pass" id="pass" placeholder="Пароль" class="invalid">
+                    <input type="password" name="repeatpass" id="repeatpass" placeholder="Пароль ще раз" class="invalid">
+                    <label for="checkrobot" class="checkbox_container">Я не робот
+                        <input type="checkbox" name="checkrobot" id="checkrobot">
+                        <span class="checkbox_checkmark"></span>
+                    </label>
+                    <input type="submit" name="Submit" id="btn-submit" value="Зареєструватись">
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="tb">
+        <table id="table">
+            <tbody></tbody>
+        </table>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
